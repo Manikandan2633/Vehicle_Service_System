@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  <title>AutoCare</title>
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-3">
+    <div class="container-fluid">
+      <a class="navbar-brand text-white">AutoCare</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item" id="nav1">
+            <a class="nav-link text-white" href="#">About us</a>
+          </li>
+          <li class="nav-item" id="nav2">
+            <a class="nav-link text-white" href="#service">Services</a>
+          </li>
+          <li class="nav-item" id="nav3">
+            <a class="nav-link text-white" href="#review">Reviews</a>
+          </li>
+          <li class="nav-item" id="nav4">
+            <a class="nav-link text-white" href="login_form.php">Login</a>
+          </li>
+
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <figure class="figure">
+    <img src="images/home.jpg" alt="home" width="100%">
+    <h1 class="carousel-caption text-uppercase text-dark" style="font-family:'Times New Roman', Times, serif;">Vehicle Service Center<br><a href="login_form.php" class="btn btn-success">Give Request</a></h1>
+  </figure>
+  <section class="py-3">
+    <div class="container px-4 px-lg-5 mt-5">
+      <div class="row">
+        <div class="col-md-4">
+          <h3 class="text-center" id="service">We Do Service For:</h3>
+          <hr class="bg-primary opacity-100">
+          <ul class="list-group callout border-primary text-uppercase">
+            <li class="list-group-item ">
+              <h4><b>Compact car</b></h4>
+            </li>
+            <li class="list-group-item">
+              <h4><b>Luxury car</b></h4>
+            </li>
+            <li class="list-group-item">
+              <h4><b>Two Wheeler</b></h4>
+            </li>
+            <li class="list-group-item">
+              <h4><b>Minivan</b></h4>
+            </li>
+            <li class="list-group-item">
+              <h4><b>Heavy Vehicle</b></h4>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-md-8">
+          <h3 class="text-center">Our Services</h3>
+          <hr class="bg-primary opacity-100">
+          <div class="row gx-4 gx-lg-5 row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-xl-2" id="service_list">
+            <a class="col item text-decoration-none text-dark" data-id="1">
+              <div class="callout border-primary">
+                <h2>Change Oil</h2>
+                <p class=" text-dark lh-2">An Oil Change is the act of&nbsp;removing the used oil in your
+                  engine&nbsp;and replacing it with new, clean oil. Over time, oil breaks down and gets dirty. These
+                  factors make oil much less slippery and less effective at their job of lubricating engine parts.</p>
+                <h5 class="text-danger">Service Charge : INR 700 /-</h5>
+              </div>
+            </a>
+            <a class="col item text-decoration-none text-dark" data-id="2">
+              <div class="callout border-primary">
+                <h2>Overall Checkup</h2>
+                <p class=" text-dark lh-2">The inspector must check the belt opreations , hoses for any leaks or other
+                  issues. Inspector must check the exhaust manifold, tailpipes, muffler, catalytic converter for damage,
+                  leaks ,cracks. These are part of vehicle inspection checklist.</p>
+                <h5 class="text-danger">Service Charge : INR 1500 /-</h5>
+              </div>
+            </a>
+            <a class="col item text-decoration-none text-dark" data-id="3">
+              <div class="callout border-primary">
+                <h2>Tyre Replacement</h2>
+                <p class=" text-dark lh-2">All tires have tire descriptions written on the sidewall.This is used for
+                  mechanic they provide crucial info about the expected performance and suitability of the tire.Whether
+                  you are looking for a smooth silent tire or improve your vehicles performance can help you get the
+                  best out of your vehicle</p>
+                <h5 class="text-danger">Service Charge : INR 900 /-</h5>
+              </div>
+            </a>
+            <a class="col item text-decoration-none text-dark" data-id="4">
+              <div class="callout border-primary">
+                <h2>Washing</h2>
+                <p class=" text-dark lh-2">The tasks typically include vacuuming the interior parts such as seats and
+                  floors, discarding the trash, cleaning the windows and windshield from the inside and outside,
+                  applying soap solution to the car's exterior, scraping off dirt, and applying wax.Wahes can be
+                  self-service, full-service or fully automated. It is 100% Eco friendly</p>
+                <h5 class="text-danger">Service Charge : INR 500 /-</h5>
+              </div>
+            </a>
+            <a class="col item text-decoration-none text-dark" data-id="5">
+              <div class="callout border-primary">
+                <h2>Battery Replacement</h2>
+                <p class=" text-dark lh-2">A car battery replacement gives a new life to your vehicle and maximizes its
+                  lifespan and yield high performance. By changing the car battery you get rid of frequent battery
+                  disService Charge problems. A good battery gets reService Charged quickly, the time limit for charging
+                  the battery is less as compared to an old battery.</p>
+                <h5 class="text-danger">Service Charge : INR 600 /-</h5>
+              </div>
+            </a>
+            <a class="col item text-decoration-none text-dark" data-id="6">
+              <div class="callout border-primary">
+                <h2>Suspention and Fitments</h2>
+                <p class=" text-dark lh-2">It is important for the suspension to keep the road wheel in contact with
+                  road surface as much as possible.Bcoz all the ground forces acting on the vehicle do so through the
+                  contact patches of the tires.Suspension also protects the vehicle itself and any cargo or luggage from
+                  damage and wear.</p>
+                <h5 class="text-danger">Service Charge : INR 800 /-</h5>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+ <section>
+  <div class="container">
+    <h3 class="text-center fw-bold">Our Guarantee</h3>
+  </div>
+  <div class="ms-5 col-md-11">
+    <hr class="bg-primary opacity-100">
+  </div>
+ <h3 class="text-center fw-bold">Why choose Us ?</h3><br>
+ 
+<div class="container">
+  <div class="row">
+      <div class="col-lg-3 col-md-6 mb-4" >
+          <div class="card" style="background-color: rgb(249, 254, 254);">
+            <i class="fa-sharp fa-solid fa-truck fa-3x p-3"></i>
+
+              <div class="card-body">
+                  <h5 class="card-title fw-bold">Free Pick and Drop</h5>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4 ">
+          <div class="card" style="background-color:rgb(254, 255, 236);">
+            <i class="fa-solid fa-gear fa-3x p-1"></i><br>
+              <div class="card-body">
+                  <h5 class="card-title fw-bold">Genuine Parts</h5>
+              </div>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4 ">
+        <div class="card" style="background-color: rgb(254, 250, 244);">
+          <i class="fa-solid fa-shield fa-3x p-1"></i><br>
+            <div class="card-body">
+                <h5 class="card-title fw-bold">30 Days Warranty</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4 ">
+      <div class="card" style="background-color: rgb(253, 238, 253);">
+        <i class="fa-solid fa-wallet fa-3x p-1"></i><br>
+          <div class="card-body">
+              <h5 class="card-title fw-bold">Affordable Price</h5>
+          </div>
+      </div>
+  </div>
+  </div>
+</div>
+
+ </section>
+  <div class="container">
+    <h3 class="text-center fw-bold" id="review">Review</h3>
+  </div>
+  <div class="ms-5 col-md-11">
+    <hr class="bg-primary opacity-100">
+  </div>
+
+  <section>
+    <div class="row text-center">
+      <div class="col-md-8 mx-auto">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">          <!-- Inner -->
+          <div class="carousel-inner">
+            
+            <div class="carousel-item active">
+              <p class="lead font-italic mx-4 mx-md-5">
+                "The workshop provides exceptial services with its crew of trained professionals.Getting my car serviced under them is one of the best decisions that i have made in a long time.Their much convient services and prices are hard to match and type of quality service that they offer is simply unmatched."
+              </p>
+              <div class="mt-5 mb-4">
+                <img src="images/pic-2.png"
+                  class="rounded-circle img-fluid shadow-1-strong" alt="smaple image" width="100"
+                  height="100" />
+              </div>
+              <p class="text-dark mb-0">- Nicky</p>
+            </div>
+  
+         
+            <div class="carousel-item">
+              <p class="lead font-italic mx-4 mx-md-5">
+                "It was my first ever experience of getting my car serviced outside the designated center with Autocare.I booked an appointment at thier site and was happy about receiving the next day slot itself. I Loved their servicing and maintanence !!!"
+              </p><br>
+              <div class="mt-5 mb-4">
+                <img src="images/pic-3.png"
+                  class="rounded-circle img-fluid shadow-1-strong" alt="smaple image" width="100"
+                  height="100" />
+              </div>
+              <p class="text-dark mb-0">- William</p>
+            </div>
+  
+            <div class="carousel-item">
+              <p class="lead font-italic mx-4 mx-md-5">
+                "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur est laborum neque cupiditate assumenda in
+                maiores.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur est laborum neque cupiditate assumenda in
+                maiores"
+              </p>
+              <div class="mt-5 mb-4">
+                <img src="images/pic-4.png"
+                  class="rounded-circle img-fluid shadow-1-strong" alt="smaple image" width="100"
+                  height="100" />
+              </div>
+              <p class="text-dark mb-0">- Kate Allise</p>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target='#carouselExampleControls'
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"> </span>
+          <span class="visually-hidden">previous</span>         
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target='#carouselExampleControls'
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"> </span>
+          <span class="visually-hidden">next</span>         
+        </button>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<br><br><br>
+
+<!-- <button class="btn btn-success" href="#">Why Wait? Give the Request</button>
+<a class="btn btn-success" href="feature.html">See the Benifits</a> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <br><br><br>
+
+
+
+
+  <footer class="sticky-footer bg-black">
+    <div class="container my-auto">
+      <div class="copyright text-center mb-auto text-white p-2">
+        <h4>Copyright &copy; AUTOCARE</h4>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="index.js"></script>
+
+
+</body>
+
+</html>
